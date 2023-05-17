@@ -24,6 +24,7 @@ class TestHomePage(BaseClass):
         message = homepage.getSucessMessage().text
 
         print(getData["firstname"], message)
+        print(getData["firstname"], message)
         assert "Success" in message
         self.driver.refresh()
 
